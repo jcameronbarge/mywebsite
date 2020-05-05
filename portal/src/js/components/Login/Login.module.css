@@ -1,0 +1,71 @@
+.loginModule {
+
+  box-sizing: border-box;
+  padding: 25px;
+  padding-top: 125px;
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(0,0,0,0.2);
+
+  width: 310px;
+  height: 500px;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+
+  margin-top: -250px;
+  margin-left: -155px;
+
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+}
+
+.inputField {
+  box-sizing: border-box;
+
+  height: 50px;
+  width: 100%;
+
+  margin-bottom: 10px;
+
+  padding: 0 5px;
+
+  font-size: 20px;
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(0,0,0,0.2);
+  border-radius: 5px;
+}
+
+::placeholder {
+  color: rgba(0,0,0,0.2);
+}
+
+.inputField:focus {
+  outline: none;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgba(70,130,180);
+}
+
+.submit {
+  box-sizing: border-box;
+
+  border-width: 1px;
+  border-style: hidden;
+  border-color: rgba(70,130,180);
+  border-radius: 5px;
+
+  background-color: rgba(70,130,180);
+
+  margin-top: 10px;
+  margin-left: 25%;
+  padding: 10px 10px;
+
+  width: 50%;
+
+  font-size: 20px;
+  color: white;
+}
