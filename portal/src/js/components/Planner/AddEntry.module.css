@@ -1,0 +1,84 @@
+.addEntry {
+
+}
+
+.modal {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.modal_content {
+  background-color: rgb(80,80,80);
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  width: 600px;
+  padding: 20px;
+  border-radius: 5px;
+  border: 2px solid white;
+
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  flex-direction: row;
+
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  user-select: none;
+}
+
+.flexul {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flexul > li {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  width: 100%;
+}
+
+.classSelector {
+  width: 50%;
+  height: 100%;
+  text-align: left;
+
+  padding-left: 10px;
+}
+
+.specEntry {
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.spellSelector {
+  width: 50%;
+  height: 100%;
+  text-align: left;
+  margin-left: 5px;
+}
+
+.spellEntry {
+  font-size: 14px;
+}
+
+.spellEntry:hover {
+  background-color: rgb(140, 140, 140);
+}
+
+.close {
+  color: Black;
+  float: right;
+  width: 10px;
+  height: 10px;
+}
+
+.close:hover {
+  color: cyan;
+  cursor: pointer;
+}

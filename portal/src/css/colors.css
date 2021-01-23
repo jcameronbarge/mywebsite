@@ -1,0 +1,63 @@
+.deathKnight {
+  color: rgb(205, 35, 35);
+}
+
+.demonHunter {
+  color: rgb(144, 25, 184);
+}
+
+.druid {
+  color: rgb(208, 87, 6);
+}
+
+.hunter {
+  color: rgb(118, 172, 12);
+}
+
+.mage {
+  color: rgb(54, 217, 217);
+}
+
+.monk {
+  color: rgb(41, 199, 41);
+}
+
+.paladin {
+  color: rgb(233, 159, 233);
+}
+
+.priest {
+  color: rgb(235, 235, 235);
+}
+
+.rogue {
+  color: rgb(220, 220, 9);
+}
+
+.shaman {
+  color: rgb(0, 102, 255);
+}
+
+.warrior {
+  color: rgb(153, 102, 51);
+}
+
+.warlock {
+  color: rgb(153, 0, 153);
+}
+
+.whiteText {
+  color: white;
+}
+
+.normal {
+  color: rgb(0, 102, 255);
+}
+
+.heroic {
+  color: rgb(140, 26, 255);
+}
+
+.mythic {
+  color: rgb(234, 147, 26)
+}

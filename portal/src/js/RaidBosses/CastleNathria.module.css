@@ -1,0 +1,223 @@
+.castleNathriaModule {
+  flex-grow: 1;
+  width: 50%;
+  height: 100%;
+}
+
+.flexNav {
+  width: 100%;
+}
+
+.flexul {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  scroll-behavior: smooth;
+
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+}
+
+.flexul > li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  user-select: none;
+
+  text-align: left;
+
+  width: 500px;
+}
+
+.bossClosed {
+  height: 30px;
+}
+
+.bossName {
+  -webkit-animation: movein 2s; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: movein 2s; /* Firefox < 16 */
+    -ms-animation: movein 2s; /* Internet Explorer */
+     -o-animation: movein 2s; /* Opera < 12.1 */
+        animation: movein 2s;
+}
+
+.flexul > li:hover {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(255,255,255,0.1);
+  box-shadow: 0px 0px 1px 1px rgba(255,255,255,0.05);
+}
+
+.bossSelected {
+  height: 75px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(255,255,255,0.15);
+  box-shadow: 0px 0px 1px 1px rgba(255,255,255,0.1);
+}
+
+
+.testFlex {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+
+  height: 100%;
+}
+
+.inputData {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+
+  position: relative;
+
+  background-color: rgba(0,0,0);
+
+  border: 1px solid rgba(50,50,50);
+  border-radius: 10px;
+  height: 30px;
+
+  -webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadein 0.5s; /* Firefox < 16 */
+    -ms-animation: fadein 0.5s; /* Internet Explorer */
+     -o-animation: fadein 0.5s; /* Opera < 12.1 */
+        animation: fadein 0.5s;
+}
+
+input[type=text] {
+  border: none;
+  border-right: 1px solid rgba(255,255,255,0.1);
+  width: 150px;
+  height: 28px;
+  background-color: rgb(0,0,0);
+  color: white;
+  text-align: center;
+}
+input[type=text]:focus {
+  outline: none;
+}
+
+input::placeholder {
+  color: rgba(255,255,255,0.2);
+  font-style: italic;
+}
+
+input[type=submit] {
+  border: 1px solid rgb(0,0,0);
+  border-radius: 0px 10px 10px 0px;
+  height: 28px;
+  background-color: rgb(0,0,0);
+  color: rgba(255,255,255, 0.75);
+
+  width: 65px;
+  font-style: italic;
+
+}
+
+.difficultyForm {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+
+
+
+
+  width: 150px;
+
+  font-size: 12px;
+  text-align: center;
+
+}
+
+.normal {
+  flex-grow: 1;
+  padding: 10px 0px;
+
+  border-right: 1px solid rgba(255,255,255, 0.1);
+
+  border-radius: 9px 0px 0px 9px;
+}
+.normal:hover {
+  text-shadow: 0px 0px 5px rgba(0, 102, 255, 0.85);
+  text-decoration: underline rgba(0, 102, 255, 0.85) solid;
+}
+.normalSelected {
+  box-shadow: inset 0px 0px 5px rgba(0, 102, 255, 0.85);
+}
+
+.heroic {
+  flex-grow: 1;
+  padding: 10px 0px;
+
+  border-right: 1px solid rgba(255,255,255, 0.1);
+}
+.heroic:hover{
+  text-shadow: 0px 0px 5px rgba(140, 26, 255, 0.85);
+  text-decoration: underline rgba(140, 26, 255, 0.85) solid;
+}
+.heroicSelected {
+  box-shadow: inset 0px 0px 5px rgba(140, 26, 255, 0.75);
+}
+
+.mythic {
+  flex-grow: 1;
+  padding: 10px 0px;
+
+  border-right: 1px solid rgba(255,255,255, 0.1);
+}
+.mythic:hover {
+  text-shadow: 0px 0px 5px rgba(234, 147, 26, 0.85);
+  text-decoration: underline rgba(234, 147, 26, 0.85) solid;
+}
+.mythicSelected {
+  box-shadow: inset 0px 0px 5px rgba(234, 147, 26, 0.7);
+}
+
+@keyframes fadein {
+    from { opacity: 0; bottom: -10px; }
+    to   { opacity: 1; bottom: 0; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; bottom: -10px; }
+    to   { opacity: 1; bottom: 0px; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; bottom: -10px;}
+    to   { opacity: 1; bottom: 0px; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes movein {
+    from { left: -200px; }
+    to   { left: 0px; }
+}
+
+@keyframes movein {
+  from { left: -200px; }
+  to   { left: 0px; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes movein {
+  from { left: -200px; }
+  to   { left: 0px; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes movein {
+  from { left: -200px; }
+  to   { left: 0px; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes movein {
+  from { left: -200px; }
+  to   { left: 0px; }
+}

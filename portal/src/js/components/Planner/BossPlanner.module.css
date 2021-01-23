@@ -1,0 +1,69 @@
+.centerItem {
+  background-color: rgba(50,50,50,0.1);
+
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: rgba(100,100,100,0.5);
+  width: 1200px;
+  height: 1000px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+
+  position: relative;
+}
+
+.bossPlanner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.bossHeader {
+  font-family: 'Josefin Sans', sans-serif;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  color: white;
+  font-size: 60px;
+}
+
+.planInfo {
+
+}
+
+.spellEntries {
+
+}
+
+.difficulty {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.normalDifficulty {
+  color: rgb(0, 102, 255);
+}
+
+.heroicDifficulty {
+  color: rgb(140, 26, 255);
+}
+
+.mythicDifficulty {
+  color: rgb(234, 147, 26)
+}
+
+.planName {
+  font-family: Tahoma, Arial;
+  color: rgb(242, 210, 95);
+  text-shadow: 1px 1px black;
+  font-size: 20px;
+}
+
+.button {
+  margin-top: 10px;
+}

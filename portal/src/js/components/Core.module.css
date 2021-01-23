@@ -1,0 +1,58 @@
+.coreModule {
+  width: 100%;
+  background-color: rgb(0,0,0);
+  display:flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.coreBackground {
+  width: 100%;
+  height: 600px;
+  position: absolute;
+
+  background-size: cover;
+  background-position: 50% 0%;
+  background-image: url(./../../images/revendreth.png);
+}
+
+.backgroundDissolve {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  left:0;
+  bottom: 0;
+
+  background-size: contain;
+  background-repeat: repeat;
+  background-image: url(./../../images/fader.png);
+}
+
+.centerItem {
+  background-color: rgba(50,50,50,0.1);
+
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: rgba(100,100,100,0.5);
+  width: 1200px;
+  height: 1000px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+
+  position: relative;
+}
+
+.bossSelector {
+
+
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  color: white;
+
+}
+
+.bossPlanner {
+}

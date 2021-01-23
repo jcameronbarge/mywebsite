@@ -1,7 +1,9 @@
 import React, { Component } from "react";
+import firebase from "firebase";
+
 import { EMAIL, PASSWORD } from "../../../config/constants";
 import styles from './Login.module.css';
-
+import { useAuth } from "../../auth/use-auth.js";
 
 class Login extends Component {
 
@@ -40,8 +42,10 @@ class Login extends Component {
   }
 
   handleSubmit(event) {
+    const auth = useAuth();
     event.preventDefault();
-    console.log(`Email: %s \n Password: %s`, this.state.email, this.state.password);
+    console.log("signin");
+    // auth.signin(this.state.email, this.state.password);
 
   }
 
@@ -50,7 +54,7 @@ class Login extends Component {
       <div className={styles.loginModule}>
         <form onSubmit={this.handleSubmit}>
           <input className={styles.inputField} type="text" name={EMAIL}
-            placeholder="Email" value={this.state.email} onChange={this.handleChange} /><br />
+            placeholder="TEST" value={this.state.email} onChange={this.handleChange} /><br />
           <input className={styles.inputField} type="password" name={PASSWORD}
           placeholder="Password" value={this.state.password} onChange={this.handleChange} /><br />
           <input className={styles.submit} type="submit" value="Login" />
